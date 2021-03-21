@@ -23,8 +23,8 @@ In this project we explore using deep neural networks to various image classific
     ├── docs/                   # notebooks with project reports
     ├── models/                 # links to best models and their training logs
     ├── scripts/                # scripts used for training and evaluation
-    ├── src/               		# source code of the training and models
-    └── main.py					# main file to execute training
+    ├── src/               	    # source code of the training and models
+    └── main.py                 # main file to execute training
 
 ## Dataset
 
