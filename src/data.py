@@ -9,7 +9,7 @@ def load_dataset(batch_size=1):
                           split=['train', 'validation'], # loads both traing and validation sets
                           batch_size=batch_size,         # divides input into batches to process input simultaneously
                           as_supervised=True,            # loads dataset, each image is a tuple (image, label)
-                          shuffle_files=False,           # shuffles images between epochs
+                          shuffle_files=True,           # shuffles images between epochs
                           with_info=True)                # loads (ds, ds_info) instead of plain ds
 
   def dataset_resize(ds):
